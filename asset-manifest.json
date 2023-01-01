@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/junflix/static/js/main.14a1a8cd.js",
+    "main.js": "/junflix/static/js/main.3306656b.js",
     "index.html": "/junflix/index.html",
-    "main.14a1a8cd.js.map": "/junflix/static/js/main.14a1a8cd.js.map"
+    "main.3306656b.js.map": "/junflix/static/js/main.3306656b.js.map"
   },
   "entrypoints": [
-    "static/js/main.14a1a8cd.js"
+    "static/js/main.3306656b.js"
   ]
 }
