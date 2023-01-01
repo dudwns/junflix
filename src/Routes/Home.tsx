@@ -486,7 +486,6 @@ function Home() {
   //   ["movies", "upcoming"],
   //   getUpcomingMovies
   // );
-
   const [index, setIndex] = useState(0);
   // const [upIndex, setUpIndex] = useState(0);
   const [leaving, setLeaving] = useState(false);
