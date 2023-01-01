@@ -5,6 +5,8 @@ import { makeImagePath } from "../utils";
 import { motion, AnimatePresence } from "framer-motion"; //AnimatePresence: render 되거나 destroy 될 때 효과를 줄 수 있음
 import { useEffect, useState } from "react";
 import { useMatch, useNavigate } from "react-router-dom"; //라우터 버전 5에서는 useNavigate -> useHistory
+import { Helmet } from "react-helmet";
+
 const Wrapper = styled.div`
   background-color: black;
   padding-bottom: 100px;
@@ -574,6 +576,10 @@ function Home() {
 
   return (
     <Wrapper>
+      <Helmet>
+        {/*여기에 작성하면 문서의 head로 감 */}
+        <title>Junflix</title>
+      </Helmet>
       {isLoading ? (
         <Loader>Loading...</Loader>
       ) : (
