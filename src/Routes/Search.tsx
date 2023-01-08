@@ -50,6 +50,7 @@ const Box = styled(motion.div)<{ boxphoto: string }>`
   background-position: center center;
   height: 150px;
   font-size: 66px;
+  cursor: pointer;
 `;
 
 const Info = styled(motion.div)`
