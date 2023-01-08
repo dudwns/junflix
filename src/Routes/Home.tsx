@@ -153,6 +153,7 @@ const NowText = styled.h3`
 const Slider = styled.div`
   position: relative;
   top: -100px;
+  margin-bottom: 50px;
   &:hover {
     ${PrevBtn}, ${NextBtn} {
       opacity: 1;
@@ -258,17 +259,17 @@ const Overlay = styled(motion.div)`
 const BigMovie = styled(motion.div)`
   position: fixed;
   width: 950px;
-  height: 700px;
+  height: 80%;
   top: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
   margin-top: 100px;
   border-radius: 15px;
-  overflow: hidden;
+  overflow: scroll;
   background-color: ${(props) => props.theme.black.lighter};
   display: flex;
-
+  padding-bottom: 350px;
   @media only screen and (max-width: 1000px) {
     width: 600px;
   }
@@ -403,6 +404,7 @@ const BigOverview = styled.p`
     font-size: 12px;
     width: 100%;
     padding: 0 50px;
+    padding-bottom: 200px;
     display: flex;
     justify-content: center;
   }
